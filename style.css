@@ -1,0 +1,40 @@
+.bg-orange{
+    background-color: orange;
+}
+.orange{
+    color: orange;
+}
+.hov:hover{
+    background-color: orange;
+    
+}
+.bg-dorange{
+    background-color: #ec9f10;
+}
+.bg-lorange{
+    background-color: #f1ede4;
+}
+.bg-purple{
+    background-color: #c279c2;
+}
+.p-r{
+    padding-right: 80px;
+}
+.p-l{
+    padding-left: 80px;
+}
+.p-t{
+    padding-top: 10px;
+}
+.p-b{
+    padding-bottom: 10px;
+}
+.b-rounded{
+    border-radius: 10px;
+}
+@media(max-width:730px) {
+    .media{
+        display: none;
+    }
+   
+}
