@@ -32,9 +32,26 @@
 .b-rounded{
     border-radius: 10px;
 }
-@media(max-width:730px) {
+.p-b-10{
+    padding-bottom: 0px;
+}
+
+@media(max-width:720px) {
     .media{
         display: none;
+        position: fixed;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    #p-y{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 100px;
+    }
+    
+    #wth{
+        width: 50%;
     }
    
 }
