@@ -36,7 +36,7 @@
     padding-bottom: 0px;
 }
 
-@media(max-width: 740px) {
+@media(max-width:766px) {
     .media{
         display: none;
         
@@ -50,11 +50,18 @@
         padding-right: 100px;
     }
     #inp-pad{
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 60%;
     }
     #wth{
-        width: 50%;
+        width: 30px;
     }
+    #input-wth{
+        width: 70%;
+    }
+    .i{
+        width: 30%;
+    }
+    
+    
    
 }
