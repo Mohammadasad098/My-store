@@ -6,6 +6,7 @@
 }
 .hov:hover{
     background-color: orange;
+    transition: 1s;
     
 }
 .bg-dorange{
@@ -63,6 +64,9 @@
     }
     .i{
         width: 30%;
+    }
+    .margin{
+        margin-right: 20px;
     }
     
     
