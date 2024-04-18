@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .bg-orange{
     background-color: orange;
 }
@@ -67,6 +72,17 @@
     }
     .margin{
         margin-right: 20px;
+    }
+    .p-2{
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    .p-r-l{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .r-center{
+        justify-content: center;
     }
     
     
