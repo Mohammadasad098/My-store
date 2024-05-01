@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .bg-orange{
     background-color: orange;
 }
@@ -49,6 +50,15 @@
     .media{
         display: none;
         
+    }
+    body{
+        padding-top: 60px;
+    }
+    .fixed{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 9999;
     }
     .wrap{
         flex-wrap: wrap;
